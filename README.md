@@ -1,1 +1,2 @@
 # protein_aggregation_in_membranes
+This repository includes a fortran90 code for a coupled problem of diffusion-aggregation of curvature elastic protein in cellular membrane with the flow of lipid in plane (2D syrface: code name diff_flow_bend_agg.f90) and also a code for Cahn-Hilliard aggregation-diffusion for without bending (code name: diff_agg_cahn_hilliard.f90) and the readme file to operate the code
