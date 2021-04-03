@@ -66,7 +66,7 @@ dt=tT/(P-1)
 D17=25.d0!  hatA
 D19=200  ! hatS
 
-!! derived nod
+!! derived ND number
 D14= D17/(2.d0*D19) !.001d0   !D17/(2.d0*sigs*L**2.d0)
 
 
@@ -149,11 +149,11 @@ enddo
 !! to start with 
 do i=1,N
 sig(i,0)=sig(i,M)
-sig(i,M+1)=sig(i,0)
+sig(i,M+1)=sig(i,1)
 enddo
 do j=1,M
 sig(0,j)=sig(N,j)
-sig(N+1,j)=sig(0,j)
+sig(N+1,j)=sig(1,j)
 enddo
 
 do i=1,N
