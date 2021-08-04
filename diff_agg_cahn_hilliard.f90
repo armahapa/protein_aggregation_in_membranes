@@ -5,7 +5,7 @@
 !
 ! For details of the model, refer to:
 ! "Curvature driven feedback on aggregation-diffusion of proteins in lipid bilayers" by Mahapatra et al.
-! (arxiv_link)
+! (https://arxiv.org/pdf/2104.01243.pdf)
 !-----------------------------------------------------------------------------------------------------------------
 program sumingup
 implicit none
